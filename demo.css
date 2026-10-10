@@ -1,0 +1,5 @@
+/* نسخة التصفح: إطار هاتف على الشاشات العريضة، تمرير داخلي، ملء الشاشة على الموبايل */
+html{position:static;width:auto;margin:0;min-height:100%;background:#E9E4DA}
+body{margin:28px auto;border-radius:38px;overflow:hidden;box-shadow:0 0 0 10px #1B1B1B,0 0 0 12px #3B3B3B,0 40px 70px -30px rgba(0,0,0,.55)}
+.main{overflow-y:auto;overscroll-behavior:contain;-webkit-overflow-scrolling:touch;padding-bottom:16px}
+@media (max-width:460px){body{width:100%;height:100dvh;margin:0;border-radius:0;box-shadow:none}}

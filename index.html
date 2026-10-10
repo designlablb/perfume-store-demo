@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>نموذج تجريبي · متجر عطور</title>
+<meta name="robots" content="noindex">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Amiri:wght@400;700&amp;family=IBM+Plex+Sans+Arabic:wght@400;500;600;700&amp;display=swap">
+<style>
+:root{--green:#215C4B;--gold:#C9A75B;--gold-d:#7A5E26;--ink:#18231F;--muted:#64716B;--paper:#FAF8F3;--line:#E4DED1}
+*{box-sizing:border-box;margin:0;padding:0}
+body{min-height:100vh;display:flex;align-items:center;justify-content:center;padding:24px 16px;background:#E9E4DA;color:var(--ink);font:400 17px/1.7 "IBM Plex Sans Arabic",system-ui,sans-serif;-webkit-font-smoothing:antialiased}
+.card{width:100%;max-width:520px;background:var(--paper);border:1px solid var(--line);border-radius:20px;padding:32px 28px;box-shadow:0 1px 2px rgba(24,35,31,.04),0 24px 48px -24px rgba(24,35,31,.3)}
+.mark{width:52px;height:52px;border-radius:14px;background:var(--green);display:grid;place-items:center;color:var(--gold);font:700 28px/1 Amiri,serif;padding-top:4px;margin-bottom:18px}
+.eyebrow{font-size:14px;font-weight:500;color:var(--gold-d)}
+h1{font:700 28px/1.35 Amiri,"IBM Plex Sans Arabic",serif;color:var(--green);margin:2px 0 8px}
+p{color:#2E3A35}
+.note{margin-top:10px;font-size:14px;color:var(--muted)}
+.btns{display:grid;gap:10px;margin-top:22px}
+.btn{display:flex;align-items:center;justify-content:space-between;gap:12px;min-height:56px;padding:0 18px;border-radius:14px;text-decoration:none;font-weight:600;border:1px solid transparent}
+.btn small{display:block;font-weight:400;font-size:13px;opacity:.85}
+.b1{background:var(--green);color:#fff}
+.b2{background:#fff;color:var(--green);border-color:var(--line)}
+.btn span:last-child{font-size:22px;line-height:1}
+.foot{margin-top:22px;padding-top:14px;border-top:1px solid var(--line);font-size:13px;color:var(--muted);display:flex;justify-content:space-between;gap:10px;flex-wrap:wrap}
+</style>
+</head>
+<body>
+<main class="card">
+  <div class="mark" aria-hidden="true">ع</div>
+  <p class="eyebrow">نموذج تجريبي قابل للتصفح</p>
+  <h1>متجر العطور كما سيراه عميلك</h1>
+  <p>افتحه من الموبايل للتجربة الأقرب للواقع. سبع شاشات مترابطة: الرئيسية والأقسام، صفحة العطر، السلة وإتمام الطلب، تأكيد الطلب ومتابعته، تسجيل الدخول، من نحن، ولوحة الإدارة.</p>
+  <p class="note">الأسماء والأسعار والأرقام تجريبية للتوضيح وتُستبدل بمنتجاتكم وهويتكم. هذا نموذج تصميم ثابت، لا متجر يعمل بعد.</p>
+  <nav class="btns" aria-label="ابدأ">
+    <a class="btn b1" href="01-home.html"><span>تصفّح كعميل<small>الرئيسية ← العطر ← السلة ← تأكيد الطلب</small></span><span aria-hidden="true">←</span></a>
+    <a class="btn b2" href="06-admin.html"><span>افتح لوحة الإدارة<small>الطلبات كما تصلكم على الموبايل</small></span><span aria-hidden="true">←</span></a>
+    <a class="btn b2" href="05-about.html"><span>صفحة من نحن<small>تُكتب بكلماتكم وتُعدَّل من اللوحة</small></span><span aria-hidden="true">←</span></a>
+  </nav>
+  <div class="foot"><span>إعداد عمر بيضون</span><span>أكتوبر 2026</span></div>
+</main>
+</body>
+</html>
